@@ -17,7 +17,7 @@ Postman or a similar API testing tool to test API endpoints.
 Clone the repository to your local machine using git:
 bash
 Copy code
-git clone https://github.com/yourusername/assignment-portal.git
+git clone https://github.com/kaushalsingh0602/Backend-Intern-Assignmen.git
 cd assignment-portal
 ## 4. Setting Up the Environment
 Install Dependencies:
