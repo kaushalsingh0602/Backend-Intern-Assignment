@@ -25,20 +25,20 @@ Install Dependencies:
 Navigate to the project folder in your terminal and install the required dependencies:
 
 bash
-Copy code
-npm install
-Create a .env File:
+# Copy code
+# npm install
+# Create a .env File:
 
 Create a .env file in the root of your project directory and configure it as follows:
 
-env
-Copy code
-MONGO_URI="mongodb://localhost:27017/assignment_portal"
-JWT_SECRET="your-secret-key"
-PORT=5000
-MONGO_URI: MongoDB connection string.
-JWT_SECRET: Secret key used to sign JWT tokens for authentication.
-PORT: Port on which the server will run.
+# env
+# Copy code
+# MONGO_URI="mongodb://localhost:27017/assignment_portal"
+# JWT_SECRET="your-secret-key"
+# PORT=5000
+# MONGO_URI: MongoDB connection string.
+# JWT_SECRET: Secret key used to sign JWT tokens for authentication.
+# PORT: Port on which the server will run.
 ## 5. MongoDB Setup
 Make sure you have MongoDB running locally or use a cloud-based service like MongoDB Atlas.
 
@@ -46,8 +46,8 @@ If you're running MongoDB locally, start the MongoDB server:
 
 bash
 Copy code
-mongod
-By default, MongoDB runs on localhost:27017.
+# mongod
+# By default, MongoDB runs on localhost:27017.
 
 ## 6. Running the Application
 Start the Server:
@@ -55,8 +55,9 @@ Start the Server:
 Run the following command to start your server:
 
 bash
-Copy code
-npm start
+# Copy code
+# npm i
+# node index.js
 This will start the server on port 5000 (or the port defined in .env).
 
 You should see the following output in your terminal:
