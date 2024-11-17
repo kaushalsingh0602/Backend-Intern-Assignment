@@ -39,6 +39,8 @@ PORT=5000
 MONGO_URI: MongoDB connection string.
 JWT_SECRET: Secret key used to sign JWT tokens for authentication.
 PORT: Port on which the server will run.
+node index.js
+
 ## 5. MongoDB Setup
 Make sure you have MongoDB running locally or use a cloud-based service like MongoDB Atlas.
 
